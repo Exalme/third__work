@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    height: 90px;
+}
+
+.header__inner {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-left: 25px;
+}
+
+.nav__link:hover    {
+    font-weight: 700;
+    color: #000;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+
+    width: 220px;
+}
+
+.block__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.block__number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.block__title,
+.nav__link  {
+    color: #7D7D7D;
+}

@@ -1,0 +1,79 @@
+.sixth__block {
+    margin-top: 15%;
+
+    width: 100%;
+    height: 65vh;
+
+    background: #0E77AF;
+}
+
+.sixth__block__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+/* testomenials */
+
+.block__testomenials    {
+    width: 45%;
+    height: calc(60vh / 1.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: #fff;
+}
+
+.testomenials__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+.testomenial__question,
+.arrows {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.testomenial__procent {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 73px;
+}
+
+
+.block__increased {
+    width: 70%;
+    height: calc(60vh / 1.2);
+
+    background: #fff;
+
+    padding: 3% 6%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* increased */
+
+.increased__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.increased__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+.increased__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
